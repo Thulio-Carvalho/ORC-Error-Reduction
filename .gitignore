@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Test and Training data
+lexicon.txt
+train.txt
