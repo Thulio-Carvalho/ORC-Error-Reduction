@@ -1,4 +1,4 @@
-class OCRErrorReduction:
+class OCRErrorReduction(object):
 
     keyphrases = []
 
