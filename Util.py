@@ -38,8 +38,8 @@ class EditDistance(object):
         self.M = len(B)
 
     def cost(self, a, b):
-        if (a == b) return 2
+        if (a == b): return 2
         return -1 
 
     def run(self):
-            
+        pass
