@@ -1,13 +1,11 @@
-class OCRErrorReduction(object):
+class OCRErrorReduction:
 
-    keyphrases = []
+    keyphrases = [] 
 
     def initialize(self, keyphrases):
         self.keyphrases = keyphrases
+        return 0
 
     def clean(self, paragraph):
-        # Returns paragraph only for testing purporses
+        
         return paragraph
-
-    def __init__(self):
-        pass

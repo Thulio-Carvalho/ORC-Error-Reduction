@@ -8,7 +8,7 @@ with open("lexicon.txt") as f: lexicon = f.readlines()
 with open("train.txt") as f: train = f.readlines()
 train_words = [line.split() for line in train]
 
-print 'Finished reading'
+print('Finished reading')
 
 cnt = 0
 
@@ -58,5 +58,5 @@ for interval in intervals:
 
 for i in range(len(match_indexes)):
     if not match_indexes[i]:
-        print i
+        print(i)
             
